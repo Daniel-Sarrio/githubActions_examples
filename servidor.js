@@ -6,5 +6,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(3000, () => {
-   console.log(missatge);
+    console.log("Servidor funcionant al port 3000");
 });
